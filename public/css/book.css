@@ -1,0 +1,23 @@
+#content-area {
+    margin: 0 10% 0 10%;
+}
+
+#book-cover {
+    display: inline-block;
+    padding: 20px 0px 20px 0px;
+}
+
+#sub-header {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+#book-cover > img {
+    height: 350px;
+    max-width: 300px;
+    object-fit: cover;
+}
+
+.price {
+    color: red;
+}
